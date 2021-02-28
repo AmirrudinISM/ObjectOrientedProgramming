@@ -13,7 +13,7 @@ public class ProductPart1{
 		pricePerUnit = 0;
 	}
 
-	//override default constructor
+	//overload default constructor
 	public ProductPart1(int itemNumber, String productName, int stockCount, double pricePerUnit){
 		this.itemNumber = itemNumber;
 		this.productName = productName;
