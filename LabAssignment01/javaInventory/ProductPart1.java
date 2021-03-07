@@ -1,5 +1,7 @@
 package javaInventory;
 
+import java.util.Scanner;
+
 public class ProductPart1{
 	private int itemNumber;
 	private String productName;
