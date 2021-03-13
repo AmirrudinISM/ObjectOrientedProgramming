@@ -1,7 +1,5 @@
 package javaInventory;
 
-import java.util.Scanner;
-
 public class ProductPart2{
 	private int itemNumber;
 	private String productName;
@@ -23,7 +21,7 @@ public class ProductPart2{
 		this.pricePerUnit = pricePerUnit;
 	}
 
-	//toString override
+	//toString override with new function
 	public String toString(){
 		return 
 		"ITEM NUMBER     = " + this.itemNumber + "\n" +
@@ -70,6 +68,7 @@ public class ProductPart2{
 		return this.pricePerUnit;
 	}
 
+	//new function for Lab 02
 	public double inventoryValue(){
 		return (this.pricePerUnit * this.stockCount);
 	}

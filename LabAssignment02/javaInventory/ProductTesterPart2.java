@@ -16,9 +16,10 @@ class ProductTesterPart2{
 		//using overloaded constructors (ID, name, stock, price)
 		ProductPart2 prod3 = new ProductPart2(1111, "Whiteboard Markers", 200, 2.80);
 		ProductPart2 prod4 = new ProductPart2(2222, "A4 Paper 500 sheets", 180, 11.50);
-
+		//other Product to be instantiated using data entered by the user
 		ProductPart2 [] productArray = new ProductPart2[2];
 
+		//prompt data from user
 		for (int i = 0; i < 2; i++){
 			System.out.print("Enter Product ID:    ");
 			inpID = inp.nextInt();
@@ -37,6 +38,7 @@ class ProductTesterPart2{
 			productArray[i] = new ProductPart2(inpID, inpName, inpStockCount, inpPrice);
 		}
 
+		//display data
 		System.out.println("====INVENTORY====");
 		System.out.println(prod1);
 		System.out.println(prod2);
