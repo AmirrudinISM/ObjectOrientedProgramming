@@ -12,7 +12,7 @@ public class ProductPart1{
 		itemNumber = 0;
 		productName = null;
 		stockCount = 0;
-		pricePerUnit = 0;
+		pricePerUnit = 0.0;
 	}
 
 	//overload default constructor
